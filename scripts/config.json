@@ -1,0 +1,5 @@
+{
+  "maxFeePerGas": 10000000000,
+  "maxPriorityFeePerGas": 1500000000,
+  "nonce0": 0
+}
