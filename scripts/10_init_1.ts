@@ -36,13 +36,15 @@ async function initFactory() {
       positions: [
         { tickLower: 0, tickUpper: 4000, amount: BigNumber.from(10).pow(18).mul(2100_000) },
         { tickLower: 4000, tickUpper: 23000, amount: BigNumber.from(10).pow(18).mul(2100_000) },
-        { tickLower: 23000, tickUpper: 46000, amount: BigNumber.from(10).pow(18).mul(2600_000) }
+        { tickLower: 23000, tickUpper: 46000, amount: BigNumber.from(10).pow(18).mul(2500_000) },
+        { tickLower: 46000, tickUpper: 115000, amount: BigNumber.from(10).pow(18).mul(100_000) }
       ],
     },
     findOspPool: {
       initSqrtPriceX96: BigNumber.from("79627299360338032760430980940"),
       positions: [
-        { tickLower: -46000, tickUpper: -23000, amount: BigNumber.from(10).pow(18).mul(2600_000) },
+        { tickLower: -115000, tickUpper: -46000, amount: BigNumber.from(10).pow(18).mul(100_000) },
+        { tickLower: -46000, tickUpper: -23000, amount: BigNumber.from(10).pow(18).mul(2500_000) },
         { tickLower: -23000, tickUpper: -4000, amount: BigNumber.from(10).pow(18).mul(2100_000) },
         { tickLower: -4000, tickUpper: 0, amount: BigNumber.from(10).pow(18).mul(2100_000) },
       ],
